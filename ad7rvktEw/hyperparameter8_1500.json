@@ -7,9 +7,9 @@
                 "schema_name": "ModelKeyV3",
                 "schema_type": "Key<Model>"
             },
-            "name": "StackedEnsemble_AllModels_AutoML_20190416_151701",
+            "name": "StackedEnsemble_BestOfFamily_AutoML_20190416_190838",
             "type": "Key<Model>",
-            "URL": "/3/Models/StackedEnsemble_AllModels_AutoML_20190416_151701"
+            "URL": "/3/Models/StackedEnsemble_BestOfFamily_AutoML_20190416_190838"
         }
     },
     "training_frame": {
@@ -20,9 +20,9 @@
                 "schema_name": "FrameKeyV3",
                 "schema_type": "Key<Frame>"
             },
-            "name": "automl_training_train11.hex",
+            "name": "automl_training_train1.hex",
             "type": "Key<Frame>",
-            "URL": "/3/Frames/automl_training_train11.hex"
+            "URL": "/3/Frames/automl_training_train1.hex"
         }
     },
     "response_column": {
@@ -54,9 +54,9 @@
                     "schema_name": "ModelKeyV3",
                     "schema_type": "Key<Model>"
                 },
-                "name": "GBM_1_AutoML_20190416_151701",
+                "name": "GBM_5_AutoML_20190416_190838",
                 "type": "Key<Model>",
-                "URL": "/3/Models/GBM_1_AutoML_20190416_151701"
+                "URL": "/3/Models/GBM_5_AutoML_20190416_190838"
             },
             {
                 "__meta": {
@@ -64,9 +64,9 @@
                     "schema_name": "ModelKeyV3",
                     "schema_type": "Key<Model>"
                 },
-                "name": "GBM_2_AutoML_20190416_151701",
+                "name": "DRF_1_AutoML_20190416_190838",
                 "type": "Key<Model>",
-                "URL": "/3/Models/GBM_2_AutoML_20190416_151701"
+                "URL": "/3/Models/DRF_1_AutoML_20190416_190838"
             },
             {
                 "__meta": {
@@ -74,19 +74,9 @@
                     "schema_name": "ModelKeyV3",
                     "schema_type": "Key<Model>"
                 },
-                "name": "DRF_1_AutoML_20190416_151701",
+                "name": "GLM_grid_1_AutoML_20190416_190838_model_1",
                 "type": "Key<Model>",
-                "URL": "/3/Models/DRF_1_AutoML_20190416_151701"
-            },
-            {
-                "__meta": {
-                    "schema_version": 3,
-                    "schema_name": "ModelKeyV3",
-                    "schema_type": "Key<Model>"
-                },
-                "name": "GLM_grid_1_AutoML_20190416_151701_model_1",
-                "type": "Key<Model>",
-                "URL": "/3/Models/GLM_grid_1_AutoML_20190416_151701_model_1"
+                "URL": "/3/Models/GLM_grid_1_AutoML_20190416_190838_model_1"
             }
         ]
     },
@@ -112,7 +102,7 @@
     },
     "seed": {
         "default": -1,
-        "actual": 332504964535847841
+        "actual": 5956338318195290584
     },
     "keep_levelone_frame": {
         "default": false,

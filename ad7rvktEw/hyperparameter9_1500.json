@@ -7,9 +7,9 @@
                 "schema_name": "ModelKeyV3",
                 "schema_type": "Key<Model>"
             },
-            "name": "GLM_grid_1_AutoML_20190416_154932_model_1",
+            "name": "GLM_grid_1_AutoML_20190416_190838_model_1",
             "type": "Key<Model>",
-            "URL": "/3/Models/GLM_grid_1_AutoML_20190416_154932_model_1"
+            "URL": "/3/Models/GLM_grid_1_AutoML_20190416_190838_model_1"
         }
     },
     "training_frame": {
@@ -35,7 +35,7 @@
     },
     "seed": {
         "default": -1,
-        "actual": 7554553798172570151
+        "actual": -3094801649326299151
     },
     "keep_cross_validation_models": {
         "default": true,

@@ -7,9 +7,9 @@
                 "schema_name": "ModelKeyV3",
                 "schema_type": "Key<Model>"
             },
-            "name": "DRF_1_AutoML_20190416_151701",
+            "name": "GBM_5_AutoML_20190416_190838",
             "type": "Key<Model>",
-            "URL": "/3/Models/DRF_1_AutoML_20190416_151701"
+            "URL": "/3/Models/GBM_5_AutoML_20190416_190838"
         }
     },
     "training_frame": {
@@ -20,9 +20,9 @@
                 "schema_name": "FrameKeyV3",
                 "schema_type": "Key<Frame>"
             },
-            "name": "automl_training_train11.hex",
+            "name": "automl_training_train1.hex",
             "type": "Key<Frame>",
-            "URL": "/3/Frames/automl_training_train11.hex"
+            "URL": "/3/Frames/automl_training_train1.hex"
         }
     },
     "validation_frame": {
@@ -51,7 +51,7 @@
     },
     "score_tree_interval": {
         "default": 0,
-        "actual": 0
+        "actual": 5
     },
     "fold_assignment": {
         "default": "AUTO",
@@ -113,15 +113,15 @@
     },
     "ntrees": {
         "default": 50,
-        "actual": 20
+        "actual": 88
     },
     "max_depth": {
-        "default": 20,
-        "actual": 20
+        "default": 5,
+        "actual": 15
     },
     "min_rows": {
-        "default": 1.0,
-        "actual": 1.0
+        "default": 10.0,
+        "actual": 100.0
     },
     "nbins": {
         "default": 20,
@@ -157,31 +157,51 @@
     },
     "seed": {
         "default": -1,
-        "actual": -4547186799594963384
+        "actual": 436659726612408543
     },
     "build_tree_one_node": {
         "default": false,
         "actual": false
     },
-    "mtries": {
-        "default": -1,
-        "actual": -1
+    "learn_rate": {
+        "default": 0.1,
+        "actual": 0.1
+    },
+    "learn_rate_annealing": {
+        "default": 1.0,
+        "actual": 1.0
+    },
+    "distribution": {
+        "default": "AUTO",
+        "actual": "gaussian"
+    },
+    "quantile_alpha": {
+        "default": 0.5,
+        "actual": 0.5
+    },
+    "tweedie_power": {
+        "default": 1.5,
+        "actual": 1.5
+    },
+    "huber_alpha": {
+        "default": 0.9,
+        "actual": 0.9
+    },
+    "checkpoint": {
+        "default": null,
+        "actual": null
     },
     "sample_rate": {
-        "default": 0.6320000290870667,
-        "actual": 0.6320000290870667
+        "default": 1.0,
+        "actual": 0.8
     },
     "sample_rate_per_class": {
         "default": null,
         "actual": null
     },
-    "binomial_double_trees": {
-        "default": false,
-        "actual": false
-    },
-    "checkpoint": {
-        "default": null,
-        "actual": null
+    "col_sample_rate": {
+        "default": 1.0,
+        "actual": 0.8
     },
     "col_sample_rate_change_per_level": {
         "default": 1.0,
@@ -189,7 +209,7 @@
     },
     "col_sample_rate_per_tree": {
         "default": 1.0,
-        "actual": 1.0
+        "actual": 0.8
     },
     "min_split_improvement": {
         "default": 1e-05,
@@ -198,6 +218,14 @@
     "histogram_type": {
         "default": "AUTO",
         "actual": "AUTO"
+    },
+    "max_abs_leafnode_pred": {
+        "default": 1.7976931348623157e+308,
+        "actual": 1.7976931348623157e+308
+    },
+    "pred_noise_bandwidth": {
+        "default": 0.0,
+        "actual": 0.0
     },
     "categorical_encoding": {
         "default": "AUTO",
@@ -211,15 +239,15 @@
         "default": null,
         "actual": null
     },
-    "distribution": {
-        "default": "AUTO",
-        "actual": "gaussian"
-    },
     "custom_metric_func": {
         "default": null,
         "actual": null
     },
     "export_checkpoints_dir": {
+        "default": null,
+        "actual": null
+    },
+    "monotone_constraints": {
         "default": null,
         "actual": null
     },

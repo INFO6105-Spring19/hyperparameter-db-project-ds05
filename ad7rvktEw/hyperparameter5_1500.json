@@ -7,9 +7,9 @@
                 "schema_name": "ModelKeyV3",
                 "schema_type": "Key<Model>"
             },
-            "name": "GBM_1_AutoML_20190416_154932",
+            "name": "GBM_1_AutoML_20190416_190838",
             "type": "Key<Model>",
-            "URL": "/3/Models/GBM_1_AutoML_20190416_154932"
+            "URL": "/3/Models/GBM_1_AutoML_20190416_190838"
         }
     },
     "training_frame": {
@@ -113,7 +113,7 @@
     },
     "ntrees": {
         "default": 50,
-        "actual": 65
+        "actual": 88
     },
     "max_depth": {
         "default": 5,
@@ -157,7 +157,7 @@
     },
     "seed": {
         "default": -1,
-        "actual": 2158604012916423509
+        "actual": 436659726612408543
     },
     "build_tree_one_node": {
         "default": false,

@@ -1,0 +1,4 @@
+﻿Model Name,balance_classes,class_sampling_factors,max_after_balance_size,activation,hidden,epochs,train_samples_per_iteration,target_ratio_comm_to_comp,seed,adaptive_rate,rho,epsilon,rate,rate_annealing,rate_decay,momentum_start,momentum_ramp,momentum_stable,nesterov_accelerated_gradient,input_dropout_ratio
+DeepLearning_1_AutoML_20190419_184714,FALSE,null,5,Rectifier,200,10.00662975,-2,0.05,6.90822E+18,TRUE,0.99,1.00E-08,0.005,1.00E-06,1,0.00,1000000,0.00,TRUE,0.00
+DeepLearning_1_AutoML_20190419_205801,FALSE,null,5,Rectifier,200,10.00580429,-2,0.05,-1.03138E+18,TRUE,0.99,1.00E-08,0.005,1.00E-06,1,0.00,1000000,0.00,TRUE,0.00
+DeepLearning_1_AutoML_20190419_200713,FALSE,null,5,Rectifier,200,10.01458907,-2,0.05,3.30546E+18,TRUE,0.99,1.00E-08,0.005,1.00E-06,1,0.00,1000000,0.00,TRUE,0.00
